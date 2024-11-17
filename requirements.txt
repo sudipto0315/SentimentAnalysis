@@ -3,3 +3,5 @@ pandas
 streamlit
 cleantext
 openpyxl
+matplotlib
+seaborn
