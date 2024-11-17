@@ -15,29 +15,30 @@ The Sentiment Analysis Dashboard is a web application built with Streamlit that 
 ## Installation
 
 1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/yourusername/sentiment-analysis-dashboard.git
-    cd sentiment-analysis-dashboard
-    ```
 
+   ```bash
+   git clone https://github.com/sudipto0315/SentimentAnalysis.git
+   cd SentimentAnalysis
+   ```
 2. **Create a virtual environment**:
-    ```bash
-    python3 -m venv venv
-    source venv/bin/activate  # On Windows use `venv\Scripts\activate`
-    ```
 
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+   ```
 3. **Install the required packages**:
-    ```bash
-    pip install -r requirements.txt
-    ```
+
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
 1. **Run the Streamlit app**:
-    ```bash
-    streamlit run app.py
-    ```
 
+   ```bash
+   streamlit run app.py
+   ```
 2. **Open your web browser** and navigate to `http://localhost:8501` to access the Sentiment Analysis Dashboard.
 
 ## How It Works
@@ -62,9 +63,9 @@ The Sentiment Analysis Dashboard is a web application built with Streamlit that 
 3. Sentiment analysis results are displayed in a table.
 4. Summary metrics for total positive, neutral, and negative sentiments are shown.
 5. Visualizations include:
-    - Bar plot of sentiment counts.
-    - Box plot of sentiment score distribution.
-    - Line plot of sentiment trends over time (if a `timestamp` column is present).
+   - Bar plot of sentiment counts.
+   - Box plot of sentiment score distribution.
+   - Line plot of sentiment trends over time (if a `timestamp` column is present).
 6. The analyzed results can be downloaded as a CSV file.
 
 ## Example
@@ -76,3 +77,4 @@ text,timestamp
 "I love this product!",2024-11-01
 "This is the worst service ever.",2024-11-02
 "Not bad, could be better.",2024-11-03
+```
