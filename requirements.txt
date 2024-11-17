@@ -1,0 +1,5 @@
+textblob
+pandas
+streamlit
+cleantext
+openpyxl
